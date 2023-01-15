@@ -18,10 +18,6 @@ on fs
     chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/3-005a/custom_wave
     chown system system /sys/bus/i2c/drivers/awinic_haptic/3-005a/f0_value
     chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/3-005a/f0_value
-    chown system system /sys/bus/i2c/drivers/awinic_haptic/3-005a/nv_flag
-    chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/3-005a/nv_flag
-    chmod 0666  /sys/bus/i2c/drivers/aw8697_haptic/5-005a/custom_wave
-    chmod 0666  /sys/bus/i2c/drivers/awinic_haptic/5-005a/custom_wave
 
 service vibratorfeature-hal-service /vendor/bin/hw/vendor.xiaomi.hardware.vibratorfeature.service
     class hal

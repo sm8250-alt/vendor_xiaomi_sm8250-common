@@ -112,18 +112,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "ims",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
@@ -148,15 +136,16 @@ android_app_import {
 }
 
 dex_import {
-	name: "WfdCommon",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/WfdCommon.jar"],
-}
-
-dex_import {
 	name: "tcmclient",
 	owner: "xiaomi",
 	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
