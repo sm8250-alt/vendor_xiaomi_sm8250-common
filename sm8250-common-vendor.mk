@@ -117,8 +117,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/xiaomi/sm8250-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/perf/thermalboost.conf:$(TARGET_OUT_VENDOR)/etc/perf/thermalboost.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_OUT_VENDOR)/etc/thermal-4k.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-8k.conf:$(TARGET_OUT_VENDOR)/etc/thermal-8k.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-camera.conf:$(TARGET_OUT_VENDOR)/etc/thermal-camera.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-class0.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-chg-only.conf:$(TARGET_OUT_VENDOR)/etc/thermal-chg-only.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-hp-mgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-hp-mgame.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-hp-normal.conf:$(TARGET_OUT_VENDOR)/etc/thermal-hp-normal.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-huanji.conf:$(TARGET_OUT_VENDOR)/etc/thermal-huanji.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-huanji.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-huanji.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-per-videochat.conf:$(TARGET_OUT_VENDOR)/etc/thermal-per-videochat.conf \
+    vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-class0.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-class0.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/thermal-india-mgame.conf:$(TARGET_OUT_VENDOR)/etc/thermal-india-mgame.conf \
